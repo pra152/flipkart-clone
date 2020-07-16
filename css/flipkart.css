@@ -139,21 +139,31 @@ body{
     display: none;
     flex-direction: column;
     list-style: none;
-    background: #fff;
     width: 220px;
-    box-shadow: 1px 0px 6px 0px #ccc;
+     
     
-    margin: 20px 0;
-    left:-66px
+    width: 300px;
+    left: -170px;
+    margin: -10px 0;
+    
 }
 .dropdown .nav-item .nav-link{
     padding: 10px 20px !important;
     
 }
 .nav-link{
-    margin-top: -30px;
+   margin-top: -30px;
     
-   
+    
+
+}
+.dropdownMenu .drop-links{
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0px;
+}
+.dropdown .customer_links{
+    margin: -9px -30px -1px 0px;
     
 }
 
@@ -165,21 +175,27 @@ body{
     border-bottom: 1px solid #eee;
     display: block;
     width: 100%;
-    padding: 15px 15px;
-    margin-left: -35px;
+    padding: 9px 15px;
+    margin-left: 20px;
    
 
 }
 .customer_links{
     display: flex;
-    
+
+
 
 }
+
 .dropdown .customer_links .nav-link{
-    margin-right: -180px;
+    margin-right: -150px;
+    margin-left: -85px;
+    margin-top: 20px;
+    
 }
 .customer_links span a.customer{
     color: #111;
+    
     
 }
 .customer_links span a.signup{
@@ -187,6 +203,36 @@ body{
 }
 ul>li:hover ul{
     display: flex;
+}
+.dropdown li{
+    background-color:#fff ;
+    border-bottom: 1px solid #eee;
+    margin-right: -30px;
+    color: #2874f0;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+
+}
+.dropdownMenu .customer_links{
+    margin: -9px -30px;
+}
+.triangle{
+    width: 0;
+    height: 38px;
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    border-bottom: 11px solid #fff;
+    position: relative;
+    margin: auto;
+}
+.dropdownMenu .profile_icon .fas {
+    margin-top: 25px;
+
+    margin-left: 10px;
 }
     
 /*---right menu css starts here---*/
