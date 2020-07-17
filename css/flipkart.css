@@ -145,6 +145,7 @@ body{
     width: 300px;
     left: -170px;
     margin: -10px 0;
+    z-index: 1;
     
 }
 .dropdown .nav-item .nav-link{
@@ -267,6 +268,7 @@ ul>li:hover ul{
     color: #212121;
     font-weight: 600;
     font-size: 14px;
+    padding: 12px 0;
 
 }
 #mainMenuBlock ul li a:hover {
@@ -285,13 +287,16 @@ ul>li:hover ul{
 }
 /*---dropdown mega menu starts here---*/
 #MegaDropDownMenuBlock {
-    display: flex;
+    
     background: #fff;
     height: 75%;
-    width: 1200px;
+    width: 1220px;
     position: absolute;
     box-shadow: 0px 2px 3px 0px #ccc;
     margin: 10px 0px;
+    left: 135px;
+    display: none;
+    z-index: 9999;
 
 }
 #MegaDropDownMenuBlock div{
@@ -316,6 +321,19 @@ ul>li:hover ul{
     font-weight: 400 !important;
     
 }
+#mainMenuBlock ul>li:hover #MegaDropDownMenuBlock {
+    display: flex;
+}
+#mainMenuBlock ul li:hover ._3ynUUz {
+    transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg);
+
+}
+#mainMenuBlock ul li:hover ._3ynUUz path {
+    fill: #2874f0 !important;
+}
+
+
 
 
 /*---dropdown mega menu starts here---*/
